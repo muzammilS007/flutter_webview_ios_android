@@ -1,18 +1,10 @@
-
-import 'dart:async';
-import 'dart:convert';
-import 'dart:io';
-import 'dart:typed_data';
 import 'package:flutter/material.dart';
-import 'package:flutter_inappwebview/flutter_inappwebview.dart';
-import 'package:path_provider/path_provider.dart';
-import 'package:webview_flutter/webview_flutter.dart';
-import 'package:webview_test/webview_inapp.dart';
 
-/*void main() => runApp(const MaterialApp(home: WebViewExample()));*/
+import 'media_gallery.dart';
 
+void main() => runApp(MaterialApp(home: MyApp()));
 
-Future main() async {
+/*Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
   // await Permission.camera.request();
   // await Permission.microphone.request();
@@ -41,7 +33,7 @@ Future main() async {
   }
 
   runApp(MyApp());
-}
+}*/
 
 /*
 const String kNavigationExamplePage = '''

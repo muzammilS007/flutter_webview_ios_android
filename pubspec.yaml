@@ -38,6 +38,10 @@ dependencies:
   path_provider:
   webview_flutter_wkwebview: ^2.7.5
   flutter_inappwebview: ^5.4.3+7
+  photo_gallery: ^1.1.1
+  video_player:
+  transparent_image:
+  permission_handler:
   url_launcher:
 
 dev_dependencies:
